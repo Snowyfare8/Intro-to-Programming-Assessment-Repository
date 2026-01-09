@@ -1,11 +1,13 @@
 # Assessment Exercise 10
 
-number_input = (int(input("Enter number here: ")))
-a = 2
+# Asks for user's number
+number_input = int(input("Enter number here: "))
 
-c = number_input % a
+# Mathematical formula to modulus divide number
+c = number_input % 2
 if c == 0:
     print("Number is even")
 
 else:
     print("Number is odd")
+
